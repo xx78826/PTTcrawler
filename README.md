@@ -1,11 +1,12 @@
-# PTTcrawler (PTT文章爬蟲)
-A crawler for web PTT  (PTT文章爬蟲) on python
-* [Demo Video](https://www.youtube.com/watch?v=qq3kuDU3k50&feature=youtu.be) - Linux
+# PTTcrawler (PTT文章爬蟲) for Windows and Linux
+A crawler for web PTT  (PTT文章爬蟲)  json格式 on python
+* [Demo Video]()  - Linux
+* [Demo Video]()  - Windows
 
 ## 特色
-* 抓取PTT文章並輸出json格式，包含作者,標題,日期,IP,內文,推噓文以及推噓文總數
+* 抓取PTT文章並輸出 json 格式，包含文章作者 , 標題 , 日期 , IP , 內文 , 推噓文 以及 推噓文總數
 
-## 輸出格式
+## 輸出格式 ( JSON )
 
     "a_ID": 編號,
     "b_作者": 作者名,
@@ -28,17 +29,25 @@ A crawler for web PTT  (PTT文章爬蟲) on python
         "n": →數
     }
     
-## 執行方法
+## 使用方法
 ```
-python pttcrawler.py [版名]  [抓取頁數]
+python pttcrawler.py [板名]  [抓取頁數]
 ```   
+
 ## 執行範例
-爬PTT Gossiping版 2頁 文章內容
+爬 PTT Gossiping 版 10頁 文章內容
 ```
-python pttcrawler.py  Gossiping  2
+python pttcrawler.py  Gossiping  10
 ```
-假設總共有100頁，則會爬取
-https://www.ptt.cc/bbs/Gossiping/index100.html 至 https://www.ptt.cc/bbs/Gossiping/index101.html 之間的內容。
+假設總共有100頁，則會爬取 <br>
+https://www.ptt.cc/bbs/Gossiping/index100.html 至 https://www.ptt.cc/bbs/Gossiping/index109.html 之間的內容。
+
+## 執行畫面 
+![alt tag](http://i.imgur.com/FQMDhAL.jpg)
+![alt tag](http://i.imgur.com/n2bGJ3F.jpg)
+
+可使用觀看 JSON 的工具，例如  [jsoneditoronline](http://www.jsoneditoronline.org/) <br><br>
+![alt tag](http://i.imgur.com/XVr0dCz.jpg)
   
 ## Environment
 * Python 2.7.3
