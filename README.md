@@ -1,7 +1,6 @@
 # PTTcrawler (PTT文章爬蟲) for Windows and Linux
 A crawler for web PTT  (PTT文章爬蟲)  json格式 on python
-* [Demo Video]()  - Linux
-* [Demo Video]()  - Windows
+* [Demo Video](https://youtu.be/13l3ZGaH4Zo)  - Linux
 
 ## 特色
 * 抓取PTT文章並輸出 json 格式，包含文章作者 , 標題 , 日期 , IP , 內文 , 推噓文 以及 推噓文總數
