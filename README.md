@@ -32,7 +32,7 @@ A crawler for web PTT  (PTT文章爬蟲)  json格式 on python
 ## 使用方法
 ```
 python pttcrawler.py [板名]  [抓取頁數]
-```   
+```
 
 ## 執行範例
 爬 PTT Gossiping 版 10頁 文章內容
@@ -43,7 +43,7 @@ python pttcrawler.py  Gossiping  10
 https://www.ptt.cc/bbs/Gossiping/index100.html 至 https://www.ptt.cc/bbs/Gossiping/index109.html 之間的內容。
 
 ## 執行畫面 
-![alt tag](http://i.imgur.com/FQMDhAL.jpg)
+![alt tag](http://i.imgur.com/M1mCln6.jpg)
 ![alt tag](http://i.imgur.com/n2bGJ3F.jpg)
 
 可使用觀看 JSON 的工具，例如  [jsoneditoronline](http://www.jsoneditoronline.org/) <br><br>
@@ -54,3 +54,4 @@ https://www.ptt.cc/bbs/Gossiping/index100.html 至 https://www.ptt.cc/bbs/Gossip
 
 ## License
 MIT license
+
