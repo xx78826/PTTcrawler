@@ -2,7 +2,7 @@
 A crawler for web PTT  (PTT文章爬蟲)  json格式 on python
 * [Demo Video](https://youtu.be/13l3ZGaH4Zo)  - Linux
 
-## 修正 Python 3.4.3 可用，如需使用 Python 2.7.3 請回到 ccc054c8976fe6443436d368c9877da5e1a4139d
+<b> 修正 Python 3.4.3 可用，如需使用 Python 2.7.3 請回到 ccc054c8976fe6443436d368c9877da5e1a4139d </b>
 
 ## 特色
 * 抓取PTT文章並輸出 json 格式，包含文章作者 , 標題 , 日期 , IP , 內文 , 推噓文 以及 推噓文總數
