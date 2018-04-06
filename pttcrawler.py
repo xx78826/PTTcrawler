@@ -138,7 +138,7 @@ def parseGos(link, g_id):
             # print "push_userid:",push_userid
 
             # push_content 推文內容
-            push_content = tag.find("span", {'class': 'push-content'}).text
+            push_content = tag.find("span", {'class': 'f3 push-content'}).text
             push_content = push_content[1:]
             # print "push_content:",push_content
 
